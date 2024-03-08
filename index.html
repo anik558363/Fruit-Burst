@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fruit_Burst</title>
 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +28,44 @@
 </head>
 
 <body class="font_lato">
-    <header></header>
+    <header class="container mx-auto px-2 md:px-5">
+        <div class="navbar bg-base-100 bg-[#F85559] mt-3 rounded-md lg:px-5">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu bg-slate-200 menu-sm dropdown-content space-y-2 z-[1]  rounded-box w-24 text-center ">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Contact</a>
+                </ul>
+              </div>
+              <div class="hidden md:block space-x-3 text-white font-medium">
+                <a class="hover:text-black" href="#">Home</a>
+                <a class="hover:text-black" href="#">About</a>
+                <a class="hover:text-black" href="#">Shop</a>
+                <a class="hover:text-black" href="#">Contact</a>
+              </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <div class="flex justify-center items-center gap-2">
+                    <img src="./images/logo.png" alt="">
+                    <h4 class="text-white text-2xl font-medium">Fruit_Burst</h4>
+                </div>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <div class="bg-white flex p-2 rounded-lg lg:rounded-full">
+                    <input type="text" placeholder="Search...">
+                    <img class="hidden md:flex" src="./images/Frame.png" alt="">
+                </div>
+             
+            </div>
+          </div>
+    </header>
     <main></main>
     <footer></footer>
 </body>
